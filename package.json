@@ -1,0 +1,26 @@
+{
+  "name": "embedium",
+  "version": "0.0.0",
+  "description": "Integration Test Harness",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./bin/embedium.js",
+    "jsdoc": "jsdoc ./src/Test.js"
+  },
+  "bin": "./bin/embedium",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/embedium/embedium.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/embedium/embedium/issues"
+  },
+  "homepage": "https://github.com/embedium/embedium#readme",
+  "devDependencies": {
+    "jsdoc": "^3.6.4",
+    "mach.js": "^0.8.0",
+    "proxyquire": "^2.1.3"
+  }
+}
