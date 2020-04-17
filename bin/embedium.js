@@ -5,6 +5,7 @@
 const test = require('../src/test');
 
 global['it'] = test.it;
+global['describe'] = test.describe;
 
 require('./../spec/test_spec');
 

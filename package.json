@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./bin/embedium.js",
-    "jsdoc": "jsdoc ./src/Test.js"
+    "jsdoc": "jsdoc ./src/test.js"
   },
   "bin": "./bin/embedium",
   "repository": {
