@@ -8,7 +8,7 @@ const stdout = mach.mockObject({
   write: () => {}
 });
 
-const test = proxyquire('../src/test.js', {
+const test = proxyquire('../src/Test.js', {
   'process': { stdout }
 });
 
